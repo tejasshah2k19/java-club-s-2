@@ -1,0 +1,248 @@
+						java
+
+     jdk										jre
+java development kit	  							java runtime enviornment 
+
+										
+javac  - compile 								
+java   - execute 								jvm / class loader / jit / lib  
+	
+javah - header 
+appletviewer - gui 
+jdb - debug 
+jar - jar file 
+javadoc - doc 
+ 
+-------------------------------------------------------
+
+
+
+pure object oriented --> i will not allow to create main method or any other method outside class. 
+
+
+how to compile java file 
+
+javac First.java 
+it will create First.class
+java First -> this will run your class file 
+
+
+javac First.java --> compile => syntax -->
+                if error 
+                        it will list all errors with exact details 
+                if no error 
+                        it will create .class file => byte code 
+
+HL ->translator-> LL 
+1) compiler - whole at once  - all error 
+2) interpreter - line by line  - exact error 
+
+c -> compiler
+c++ -> compiler 
+
+java --> compiler + interpreter 
+
+
+python---------interpreted---------
+
+-----------------------------------------------------------------------------------
+
+create a class Calc , that print => welcome to calculator. 
+
+-----------------------------------------------------------------------------------
+
+
+data types:-
+
+1) primitive                   
+  8 total primitive 
+    byte        1 byte 8 bit  -128 to 127 
+    short       2 byte 16 bit 2^16 
+    char        2 byte
+    int         4 byte
+    long        8 byte
+    float       4 byte
+    double      8 byte 
+    boolean     1 bit  true |  false 
+
+     
+   
+   
+   2) non primitive                                      
+    class 
+    float                              
+    array           
+    object
+
+----------------------------------------------
+
+user input: 
+
+Scanner -> class 
+        take input from console 
+
+        int -> nextInt() 
+        float -> nextFloat()
+        dobule -> nextDouble()
+        char -> XXXXXX 
+        String -> next() 
+        String : word => nextLine() 
+
+we need to create object of Scanner class. 
+
+Scanner scr; // null object -> object without memory  
+
+new keyword is used to allocate memory in java 
+
+
+
+ClassName objectName = new ClassName();
+
+
+Scanner scr = new Scanner();
+Calc c = new Calc();
+
+if we want to use Scanner we need import it first. 
+
+#include -> c and c++ 
+
+import --> java 
+
+import java.util.Scanner; 
+
+--------------------------------------------------------
+
+class -> logical entity 
+         general - group  
+             Laptop 
+             Course 
+             Men
+object -> physical entity 
+           special - member  
+                Dell IV720 
+                C 
+                DhirajSir 
+
+class contains two properties 
+                1) data member - variable 
+                2) member function - method 
+
+class is not going to access their properties , it's object.
+-----------------------------------------------------------------------------
+
+class - object - variable - method 
+
+
+Product 
+        productId 
+        name 
+        price 
+        discount:15%  [ 10000:5%,2000010%,20k+ 15%  ]
+
+        scan 
+        print 
+1
+legion y 520 
+25000
+
+
+1       legion y 520            25000           15      3750    21250 
+
+----------------------------------------------------------------------------
+
+TorrentBill 
+                customerId
+                Address = "202 second floor surabhi complex "; nextLine() 
+                consumption 
+
+consumption is an integer value that represents how many units used by customer 
+bill amount will generate on basis of consumption uint .
+
+rate chart for consumption : 
+        first 100       3 Rs 
+        100-150         4 Rs 
+        150-250         5 Rs 
+        250+            6 RS 
+e.g 
+if customer x consume 800 units then his bill amount is 
+        100*3 = 300 
+         50*4 = 200 
+        100*5 = 500 
+        550*6 = 3300 
+       -------------------
+                4300  
+
+----------------------------------------------------------------------------
+id should be auto generated 
+
+radmon 
+Math -> java.lang 
+
+overloading -> more than form 
+
+what is method overloading ?
+        when we have   more than 1 method  with same name and 
+        different argument/parameter 
+
+
+
+payment-> cod , upi , dc ,cc 
+
+        9510141151@apl payment(String upiID)
+        cod  payment()
+                s.o.p("cod")
+        dc  payment(long cardNum,int cvv,String expDate)
+                s.o.p("dc")
+        cc  payment(long cardNum,String expDate,int cvv)
+                s.o.p("cc")
+
+        payment(1111,123,"sds");
+        payment(1111,"sds",123); 
+
+------------------------------------------------------------------------------
+--primitive---datatypes 
+byte 
+short 
+char 
+int 
+long
+float
+double 
+boolean 
+
+-----constructor--------
+
+its a special method which has same name as class name and it must not have 
+any return type. 
+
+why? to initialize instance variable 
+        instance variable -> class{ } -> 
+                        method -> local variable 
+constructor will call automatically when you create instance/object; 
+
+
+1) implicit constructor - java 
+2) explicit constructor         
+        2.1) no argument constructor -- default constructor 
+        2.2) argument constructor -- parameterized constructor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
