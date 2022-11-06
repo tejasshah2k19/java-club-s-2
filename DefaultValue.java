@@ -13,6 +13,9 @@ public class DefaultValue {
         c='p';
     }
 
+    DefaultValue(int u){
+        i = u;
+    }
     void print(){
         System.out.println(b); // 25 
         System.out.println(s); //0 
@@ -30,7 +33,8 @@ public class DefaultValue {
         DefaultValue e = new DefaultValue(); 
         e.print();//b 25 c p 
         
-
+        DefaultValue f= new DefaultValue(1000); 
+       f.print();//i=> 1000
 
     }
 }

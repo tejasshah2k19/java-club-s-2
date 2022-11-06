@@ -226,8 +226,14 @@ constructor will call automatically when you create instance/object;
         2.1) no argument constructor -- default constructor 
         2.2) argument constructor -- parameterized constructor 
 
+Array -> 
+        a -> 1+ 
+           -> same type of data 
+           -> index 0 -- size-1 
+           -> a.length
+           -> non primitive  
 
-
+1) 1D array 
 
 
 
