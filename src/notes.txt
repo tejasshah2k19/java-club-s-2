@@ -234,6 +234,23 @@ Array ->
            -> non primitive  
 
 1) 1D array 
+2) 2D Array 
+3) Jagged Array 
+
+
+        int a[][]  = new int[3][4];
+
+
+--------------------------------------------------------
+String str = "royal"; 
+String str = new String("royal"); 
+
+
+class String 
+char [5] => royal 
+ 
+
+
 
 
 
