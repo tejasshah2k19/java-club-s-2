@@ -1,3 +1,4 @@
+package stringdemo;
 import java.util.Scanner;
 
 public class StringCompareDemo {

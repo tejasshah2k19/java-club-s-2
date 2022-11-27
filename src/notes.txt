@@ -249,9 +249,35 @@ String str = new String("royal");
 class String 
 char [5] => royal 
  
+--------------------------------------------------------
+
+name = "india" 
+
+convert above name into uppercase using method?
+toUpperCase() 
+toLowerCase()
 
 
+s1 ="royal" 
+s2 = "Royal" 
 
+equals() => false
+
+eqaulsIgnoreCase()
+
+
+s1 = "royal" 
+
+a => print 4th character from string ?
+
+charAt() 
+
+
+1) str = "jony jony yes papa" 
+
+	next() it will not accept space 
+	nextLine() 
+	
 
 
 
