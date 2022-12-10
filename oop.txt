@@ -1,0 +1,9 @@
+create parent abstract class staff with two method salary() and 
+tax() 
+salary method is abstract method and tax is non abstract. 
+
+create child class Faculty that inherit property from Staff class 
+child class has 1 method subject() 
+
+demonstrate above structure and create object(s) 
+and call all the methods 
