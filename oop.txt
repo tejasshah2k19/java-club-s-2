@@ -1,3 +1,40 @@
+when we need a variable which value is fix/constant. 
+No 1 allow to change that value. 
+the ans is final variable. 
+
+final int X = 10; 
+by convention final variable should be in all CAPS.
+
+You must assign value to your final variable. 
+You can also assign value using constructor.
+
+
+----------------------------------------------------------
+
+inheritance :- 
+	what is inheritance ? why we need ? 
+	object of one class can access property of another class.
+	one class can access property[variable and methods]  from another class. 
+	
+	1)Parent - Child - SingleLevel Inheritance 
+	
+	*) Create Staff class with name and empcode variable.
+		create input() for scan all variable of Staff Class.
+		Now Create Faculty class who is child of Staff class.
+		FAculty has salary and rank field. 
+		to read rank and salary we need to create input() in 
+		Faculty class. 
+		To print all the information of faculty create 
+		display(). 
+		
+		from main method create 1 faculty , read input and print 
+		all information of faculty. 
+
+----------------------------------------------------------
+
+
+
+
 create parent abstract class staff with two method salary() and 
 tax() 
 salary method is abstract method and tax is non abstract. 
@@ -7,3 +44,18 @@ child class has 1 method subject()
 
 demonstrate above structure and create object(s) 
 and call all the methods 
+
+-----------------------------------------------------------------
+
+create 1 interface Menu with 2 method punjabi() and gujarati() 
+create 1 abstract class Menu2  with souhtindian() 
+
+
+create class MasterMenu who is child of Menu and Menu2 
+
+in main method create object(s) and 
+call pubjani() gujrati() southindian().
+
+all method just print their name. 
+
+-----------------------------------------------------------------

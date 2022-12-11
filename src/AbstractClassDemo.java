@@ -21,6 +21,9 @@ public class AbstractClassDemo {
 //2) non abstract method 
 abstract class Car {
 
+	Car() {
+	}
+
 	// abstract method
 	// declaration - no body
 	abstract void drive();
