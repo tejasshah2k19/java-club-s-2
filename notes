@@ -1,0 +1,16 @@
+coupling
+cohesion 
+
+
+A
+	add 
+	
+
+B
+	seeInToA()
+		add() 
+
+		
+		
+Faculty 
+	

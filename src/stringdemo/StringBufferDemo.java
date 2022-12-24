@@ -2,6 +2,9 @@ package stringdemo;
 
 public class StringBufferDemo {
 
+	public void add() {
+		
+	}
 	public static void main(String[] args) {
 
 		String str = new String("royal");

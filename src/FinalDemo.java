@@ -19,3 +19,23 @@ public class FinalDemo {
 
 	}
 }
+
+class P {
+	final void add() {
+
+	}
+}
+
+final class C extends P {
+//	void add() {
+//
+//	}
+}
+
+//class D extends C{
+//	
+//}
+
+
+
+

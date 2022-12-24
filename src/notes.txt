@@ -281,15 +281,83 @@ charAt()
 
 
 
+Parent 
+	void add ()  
+	saleGathiya() 
+	
+Child 
+	void add ()
+	saleGathiya()
+		+jalebi 
+		+fafada
+		+samosa 
+		
+
+
+Amazon prime -> movies ser [ paid ] 
+Amazon Mini Tv -> movies ser [ free ] 
+
+
+
+final variable -> constant  -> variable can not modify 
+final method -> method can not override 
+final class -> it can not be inherited  -> no child 
+
+
+-----------------------------------------------------------------------
+
+movie -> hw bw ow 
+
+java -> n class -> java 
+project -> n class -> developer 
+
+
+java 
+	util
+		Scanner 
+		Date 
+		Calendar 
+	lang 
+		System String Math 
+	io
+		File FileWriter FileReader 
+	applet 
+		Frame Button Image Radi.. 
+	security
+	
+	net 
+javax 
+
+	
+	
+	
+	
+String 
+System 
+Math
+Scanner 
+Date 
+Calendar
 
 
 
 
-
-
-
-
-
+folder -> abc 
+			package abc;
+			A.java [add() ]
+				def 
+					package abc.def;
+					X.java [sub() ]
+		 def 
+		 	package def
+			B.java [Mul() ] 
+			
+			
+		import abc.A; 	
+		import abc.def.X;
+		Main.java
+			add sub mul 
+		
 
 
 
