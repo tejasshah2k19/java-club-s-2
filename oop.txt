@@ -59,3 +59,67 @@ call pubjani() gujrati() southindian().
 all method just print their name. 
 
 -----------------------------------------------------------------
+
+
+How to import a class in java? 
+using import keyword 
+
+import packagename-x.classname 
+import java.util.Scanner
+import delhi.Capital 
+
+how many types of variable we have in java? 
+3
+static 
+local
+instance 
+
+how many access specifier we have in java? 
+private
+default
+protected
+public 
+
+
+__abstract______ keyword is used when we want to create abstract class ?
+
+_extends___ keyword we used to achieve inheritance in java? 
+
+___implements_______ keyword is used to achieve inheritance between class and interface?
+
+__constructor__ is used to initialize instance variable?
+
+___overloading____ oop mechanism allow us to create same method name more than 1 time?
+
+__static___ property(method/variable) we can access using class name?
+
+_private_ property we can not access outside class?
+
+_private and default_ property we can not access outside package?
+
+__final_ keyword is used to create constant variable in java? 
+const is used in c and c++ 
+
+_Math.sqrt(num)_ is used to find sqrt in java  ?
+  
+Math.sqrt(9);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

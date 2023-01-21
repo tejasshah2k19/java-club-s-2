@@ -1,0 +1,33 @@
+
+
+exception - runtime error 
+
+ERROR -> 
+	1) compile time error [.class ]  
+	2) runtime error      [run ] [crash] 
+	
+	
+	int ans=10;
+	
+	s.o.p(Ans); 
+	
+	javac F.java
+	
+	
+try* 
+	throw+ 
+		catch* 
+			handle* 
+
+			Object 
+				
+			Throwable 
+	Error 				Exception 
+									RuntimeException 
+				IOException				ArithmeticException 
+										InputMisMatchException 
+										ArrayIndexOutofBoundsException 
+		
+1) checked exception -- you must have to handle 
+2) unchecked exception -- your choice 
+		
