@@ -28,6 +28,6 @@ try*
 										InputMisMatchException 
 										ArrayIndexOutofBoundsException 
 		
-1) checked exception -- you must have to handle 
-2) unchecked exception -- your choice 
+1) checked exception -- you must have to handle ---Exception 
+2) unchecked exception -- your choice  -- RuntimeException 
 		

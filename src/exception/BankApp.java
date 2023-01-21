@@ -17,8 +17,9 @@ public class BankApp {
 		String email = scr.next();
 		if (!email.contains("icici.com")) {
 			// exception throw
-			throw new EmailException();
-
+			EmailException e = new EmailException();
+			throw e; // throw obj;
+			// throw new EmailException();
 		}
 
 		System.out.println("email -> " + email);
